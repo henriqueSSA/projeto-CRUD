@@ -10,15 +10,15 @@
   <input type="hidden" name="id" value="<?php print $row->id; ?>">
     <div class="mb-3">
       <label>Nome</label>
-      <input type="text" name="nome" value=" <?php print $row->nome; ?>" class="form-control">
+      <input type="text" name="nome" value=" <?php print $row->nome; ?>" class="form-control" Required>
     </div>
     <div class="mb-3">
         <label>E-mail</label>
-        <input type="email" name="email" value=" <?php print $row->email; ?>" class="form-control">
+        <input type="email" name="email" value=" <?php print $row->email; ?>" class="form-control" Required>
     </div>
     <div class="mb-3">
         <label>Senha</label>
-        <input type="password" name="senha" class="form-control" required>
+        <input type="password" name="senha" class="form-control" Required>
     </div>
     <div class="mb-3">
         <label>Data de Nascimento</label>
