@@ -22,7 +22,7 @@
     </div>
     <div class="mb-3">
         <label>Data de Nascimento</label>
-        <input type="date" name="data_nasc" value="<?php print $row->data_nasc; ?>" class="form-control">
+        <input type="date" name="data_nasc" value="<?php print $row->data_nasc; ?>" class="form-control" Required>
     </div>
     <div class="mb-3">
         <button type="submit" class="btn btn-primary">Enviar</button>
